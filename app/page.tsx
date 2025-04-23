@@ -3,7 +3,11 @@ import React from 'react';
 export default function Home() {
   return (
   <React.Fragment>
- Hello
+    <section className='flex-start flex-col paddings mb-16'>
+     Categoties
+     Posts
+     LoadMore
+    </section>
   </React.Fragment>
   );
 }
