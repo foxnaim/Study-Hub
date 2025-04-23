@@ -5,13 +5,13 @@ import AuthProviders from './AuthProviders'
 
 
 const NavBar = () => {
- const session = null;
+ const session = {};
  return (
   <nav className='flexBetween navbar'>
    <div className='flex-1 flexStart gap-10'>
     <Link
      href="/"
-     className="flexCenter cursor-pointer text-3xl bg-gradient-to-r from-pink-600 via-purple-600 to-gray-100 bg-clip-text text-transparent">
+     className="flexCenter cursor-pointer text-3xl bg-gradient-to-r from-pink-100 via-purple-600 to-gray-100 bg-clip-text text-transparent">
      Luki-lu
     </Link>
     <ul className='xl:flex hidden text-small gap-7'>
