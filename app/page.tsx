@@ -4,7 +4,7 @@ export default function Home() {
   return (
   <React.Fragment>
     <section className='flex-start flex-col paddings mb-16'>
-     Categoties
+     Categoties 
      Posts
      LoadMore
     </section>
